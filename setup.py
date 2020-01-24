@@ -1,12 +1,12 @@
-from distutils.core import setup
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='quickregress',         # How you named your package folder (MyLib)
     packages=['quickregress'],   # Chose the same as "name"
-    version='0.1.1',      # Start with a small number and increase it with every change you make
+    version='0.1.2',      # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Provides a low-effort wrapper for sklearn\'s polynomial regression',   # Give a short description about your library
     long_description_content_type="text/markdown",
