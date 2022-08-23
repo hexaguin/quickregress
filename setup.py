@@ -11,8 +11,8 @@ setuptools.setup(
     description='Provides a low-effort wrapper for sklearn\'s polynomial regression',
     long_description_content_type="text/markdown",
     long_description=long_description,
-    author='Ryan Hattie',
-    author_email='ryan@hattie.email',
+    author='Raelynn Hattie',
+    author_email='raelynn@hattie.email',
     url='https://github.com/hexaguin/quickregress',
     keywords=['sklearn', 'regression'],
     install_requires=[
